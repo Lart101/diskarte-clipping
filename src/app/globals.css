@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light Mode Tokens (Clean Editorial Canvas) */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 43 85% 48%; /* #D4AF37 Imperial Gold */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 221 100% 50%; /* #0055FE Royal Blue */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%; /* #EF4444 Crimson */
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 43 85% 48%;
+
+    --radius: 0.85rem;
+  }
+
+  .dark {
+    /* Dark Mode Tokens (Deep Obsidian / Glowing Sunbursts) */
+    --background: 222 47% 4%; /* #070A0F */
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 7%; /* #0F1420 */
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 6%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 43 78% 58%; /* #E5B842 Radiant Gold */
+    --primary-foreground: 222 47% 4%;
+
+    --secondary: 221 100% 50%; /* #0055FE Royal Blue */
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84% 60%; /* #EF4444 Crimson Sun */
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 30% 18%;
+    --input: 222 30% 18%;
+    --ring: 43 78% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Custom Gradients & Aesthetics */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFE066 0%, #E5B842 50%, #B8860B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #FFE066 0%, #E5B842 60%, #B8860B 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 40px -10px rgba(229, 184, 66, 0.4);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 50px -5px rgba(229, 184, 66, 0.55);
+}
+
+.blue-glow {
+  box-shadow: 0 0 35px -8px rgba(0, 85, 254, 0.4);
+}
+
+.glass-card {
+  background: rgba(15, 20, 32, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(229, 184, 66, 0.14);
+}
+
+.light .glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.sunburst-ambient {
+  background: radial-gradient(circle, rgba(229, 184, 66, 0.12) 0%, rgba(0, 85, 254, 0.06) 45%, transparent 70%);
+}
+
+/* Animations */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 40s linear infinite;
+}
