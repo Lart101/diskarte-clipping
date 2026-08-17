@@ -41,7 +41,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
             </button>
 
             <a
-              href="https://whop.com/clippingculture/"
+              href="https://whop.com/diskarte-clipping/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-7 py-4 rounded-full font-semibold text-sm text-foreground bg-accent hover:bg-muted border border-border transition-colors flex items-center justify-center gap-2"
@@ -73,7 +73,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
             </p>
             <div className="flex items-center gap-2 text-xs font-semibold text-diskarte-gold">
               <span className="w-2 h-2 rounded-full bg-diskarte-gold animate-pulse" />
-              <span>Network Active • Verified Whop Portal</span>
+              <span>whop.com/diskarte-clipping</span>
             </div>
           </div>
 
@@ -93,9 +93,9 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
           <div className="md:col-span-2">
             <h4 className="font-bold text-sm text-foreground uppercase tracking-wider mb-4">Clippers</h4>
             <ul className="space-y-2.5 text-sm text-muted-foreground">
-              <li><a href="https://whop.com/clippingculture/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Join on Whop</a></li>
-              <li><a href="https://whop.com/clippingculture/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Active Bounties</a></li>
-              <li><a href="https://whop.com/clippingculture/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Whop Reviews</a></li>
+              <li><a href="https://whop.com/diskarte-clipping/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Join on Whop</a></li>
+              <li><a href="https://whop.com/diskarte-clipping/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Active Bounties</a></li>
+              <li><a href="https://whop.com/diskarte-clipping/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Whop Reviews</a></li>
               <li><a href="#faq" className="hover:text-foreground transition-colors">Clipper FAQ</a></li>
             </ul>
           </div>

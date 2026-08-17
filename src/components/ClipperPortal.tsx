@@ -73,7 +73,7 @@ export const ClipperPortal: React.FC = () => {
             {/* CTA Button */}
             <div className="flex flex-wrap items-center gap-4">
               <a
-                href="https://whop.com/clippingculture/"
+                href="https://whop.com/diskarte-clipping/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 rounded-full font-bold text-base text-diskarte-dark gold-gradient-bg shadow-lg shadow-diskarte-gold/25 hover:shadow-xl hover:shadow-diskarte-gold/45 hover:-translate-y-0.5 transition-all duration-200 flex items-center gap-2 cursor-pointer"
@@ -83,7 +83,7 @@ export const ClipperPortal: React.FC = () => {
               </a>
 
               <a
-                href="https://whop.com/clippingculture/"
+                href="https://whop.com/diskarte-clipping/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-4 rounded-full font-semibold text-sm text-foreground bg-card border border-border hover:bg-accent transition-colors"
@@ -99,7 +99,7 @@ export const ClipperPortal: React.FC = () => {
               <div className="flex items-center justify-between pb-5 border-b border-border mb-6">
                 <div>
                   <h3 className="font-bold text-lg text-foreground">Whop Clipper Portal</h3>
-                  <p className="text-xs text-muted-foreground">Live Bounties on whop.com/clippingculture/</p>
+                  <p className="text-xs text-muted-foreground">Live Bounties on whop.com/diskarte-clipping/</p>
                 </div>
                 <span className="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-500 border border-emerald-500/30 text-xs font-bold flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
@@ -116,7 +116,7 @@ export const ClipperPortal: React.FC = () => {
                     <p className="text-xs text-muted-foreground">$20 - $35 per 100K Views</p>
                   </div>
                   <a
-                    href="https://whop.com/clippingculture/"
+                    href="https://whop.com/diskarte-clipping/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs font-bold px-3 py-1.5 rounded-full bg-diskarte-gold text-diskarte-dark hover:scale-105 transition-transform"
@@ -132,7 +132,7 @@ export const ClipperPortal: React.FC = () => {
                     <p className="text-xs text-muted-foreground">$25 per 100K Views</p>
                   </div>
                   <a
-                    href="https://whop.com/clippingculture/"
+                    href="https://whop.com/diskarte-clipping/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs font-bold px-3 py-1.5 rounded-full bg-diskarte-blue text-white hover:scale-105 transition-transform"
@@ -148,7 +148,7 @@ export const ClipperPortal: React.FC = () => {
                     <p className="text-xs text-muted-foreground">$15 - $30 per 100K Views</p>
                   </div>
                   <a
-                    href="https://whop.com/clippingculture/"
+                    href="https://whop.com/diskarte-clipping/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs font-bold px-3 py-1.5 rounded-full bg-diskarte-red text-white hover:scale-105 transition-transform"
@@ -160,7 +160,7 @@ export const ClipperPortal: React.FC = () => {
 
               <div className="mt-6 pt-5 border-t border-border flex items-center justify-between text-xs text-muted-foreground">
                 <span>⚡ Verified Whop Partner Portal</span>
-                <span className="font-bold text-foreground">300K+ Submissions Reviewed</span>
+                <span className="font-bold text-foreground">whop.com/diskarte-clipping</span>
               </div>
             </div>
           </div>

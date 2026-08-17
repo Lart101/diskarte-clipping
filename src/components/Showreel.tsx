@@ -102,7 +102,7 @@ export const Showreel: React.FC = () => {
 
                   {/* Direct Whop Button inside Player Card */}
                   <a
-                    href="https://whop.com/clippingculture/"
+                    href="https://whop.com/diskarte-clipping/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-3 w-full py-2.5 rounded-xl bg-diskarte-gold text-diskarte-dark font-extrabold text-xs flex items-center justify-center gap-1.5 shadow-md hover:bg-diskarte-gold-light transition-all"
@@ -133,7 +133,7 @@ export const Showreel: React.FC = () => {
                 <span>Viral Hook Blueprints</span>
               </h3>
               <a
-                href="https://whop.com/clippingculture/"
+                href="https://whop.com/diskarte-clipping/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs font-bold text-diskarte-gold hover:underline flex items-center gap-1"
@@ -184,12 +184,12 @@ export const Showreel: React.FC = () => {
               <h4 className="font-bold text-sm text-foreground mb-1">Ready to start earning per 1,000 views?</h4>
               <p className="text-xs text-muted-foreground mb-3">Join our community on Whop to access all raw editing footage & bounties.</p>
               <a
-                href="https://whop.com/clippingculture/"
+                href="https://whop.com/diskarte-clipping/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full py-3 rounded-xl font-bold text-xs text-diskarte-dark gold-gradient-bg shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-1.5"
+                className="w-full py-3 rounded-xl font-bold text-xs text-diskarte-dark gold-gradient-bg shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-1.5 cursor-pointer"
               >
-                <span>Join Whop Community (whop.com/clippingculture/)</span>
+                <span>Join Whop Community (whop.com/diskarte-clipping/)</span>
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </a>
             </div>

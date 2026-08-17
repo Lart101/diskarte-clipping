@@ -163,7 +163,7 @@ graph TD
 - **Whop Format Blueprints**:
   - Responsive vertical video container styled like a high-end mobile feed with sound unmute toggle, ambient glow, and direct *"Clip This on Whop"* button.
   - Category selector tabs: *🎵 Music Hooks*, *🎙️ Podcast Snippets*, *🎮 Gaming Highlights*, *🚀 Product Demos*.
-  - Strong call-to-actions driving video clippers directly to `https://whop.com/clippingculture/` to claim bounties.
+  - Strong call-to-actions driving video clippers directly to `https://whop.com/diskarte-clipping/` to claim bounties.
 - **Featured Press Ticker**:
   - Seamless infinite marquee of media mentions: *Forbes, NPR, CNN, 12News, Variety, The Hollywood Reporter, Business Insider*.
 
@@ -199,8 +199,8 @@ A dedicated section and subpage breaking down the creator side of the ecosystem:
 - **Zero Follower Minimum**: Anyone can join and start posting. Payouts are based purely on verified video performance.
 - **Clear Earnings**: Earn a guaranteed set rate per 1,000 verified views.
 - **Access to Top Brand Bounties**: Clip for global musicians, top podcasters, and famous brands.
-- **Whop Integration**: Direct access via [whop.com/clippingculture/](https://whop.com/clippingculture/) for community leaderboard, guidelines, asset banks, and instant payouts.
-- **CTA**: `[Join as a Clipper on Whop (https://whop.com/clippingculture/) ↗]`.
+- **Whop Integration**: Direct access via [whop.com/diskarte-clipping/](https://whop.com/diskarte-clipping/) for community leaderboard, guidelines, asset banks, and instant payouts.
+- **CTA**: `[Join as a Clipper on Whop (https://whop.com/diskarte-clipping/) ↗]`.
 
 ---
 
