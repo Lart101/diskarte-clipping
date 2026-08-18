@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { Music, Mic, Gamepad2, Rocket, Crown, ArrowUpRight } from 'lucide-react'
+import { whopTrack } from '@/lib/whop'
 
 interface VerticalsProps {
   onOpenBooking: () => void
@@ -103,7 +104,7 @@ export const Verticals: React.FC<VerticalsProps> = ({ onOpenBooking }) => {
                   {v.results}
                 </span>
                 <button
-                  onClick={onOpenBooking}
+                  onClick={() => { whopTrack('lead'); onOpenBooking() }}
                   className="text-xs font-semibold text-foreground hover:text-diskarte-gold flex items-center gap-1 transition-colors cursor-pointer"
                 >
                   <span>Launch Campaign</span>

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import { Sun, Moon, ArrowUpRight, Menu, X, Sparkles } from 'lucide-react'
+import { whopTrack } from '@/lib/whop'
 
 interface NavbarProps {
   onOpenBooking: () => void
@@ -91,7 +92,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, darkMode, setDark
 
           {/* Primary CTA */}
           <button
-            onClick={onOpenBooking}
+            onClick={() => { whopTrack('lead'); onOpenBooking() }}
             className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-bold text-sm text-diskarte-dark gold-gradient-bg shadow-md shadow-diskarte-gold/20 hover:shadow-lg hover:shadow-diskarte-gold/40 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
           >
             <span>Contact Us</span>
@@ -166,6 +167,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, darkMode, setDark
           <button
             onClick={() => {
               setMobileMenuOpen(false)
+              whopTrack('lead')
               onOpenBooking()
             }}
             className="w-full mt-2 py-3 rounded-2xl font-bold text-sm text-diskarte-dark gold-gradient-bg shadow-md flex items-center justify-center gap-2 cursor-pointer"

@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { ArrowUpRight, Sparkles, Heart } from 'lucide-react'
+import { whopTrack } from '@/lib/whop'
 
 interface FooterProps {
   onOpenBooking: () => void
@@ -33,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
 
           <div className="flex flex-col sm:flex-row items-center gap-4 z-10 w-full sm:w-auto">
             <button
-              onClick={onOpenBooking}
+              onClick={() => { whopTrack('lead'); onOpenBooking() }}
               className="w-full sm:w-auto px-9 py-4 rounded-full font-bold text-base text-diskarte-dark gold-gradient-bg shadow-xl shadow-diskarte-gold/25 hover:shadow-2xl hover:shadow-diskarte-gold/45 hover:-translate-y-0.5 transition-all duration-200 flex items-center justify-center gap-2 cursor-pointer"
             >
               <span>Contact Us via Email</span>
@@ -44,6 +45,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
               href="https://whop.com/diskarte-clipping/"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => whopTrack('submit_application')}
               className="w-full sm:w-auto px-7 py-4 rounded-full font-semibold text-sm text-foreground bg-accent hover:bg-muted border border-border transition-colors flex items-center justify-center gap-2"
             >
               <span>Join as a Clipper on Whop</span>

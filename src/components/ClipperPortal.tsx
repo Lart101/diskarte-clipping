@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { Sparkles, DollarSign, Users, Award, ArrowUpRight, CheckCircle } from 'lucide-react'
+import { whopTrack } from '@/lib/whop'
 
 export const ClipperPortal: React.FC = () => {
   return (
@@ -76,6 +77,7 @@ export const ClipperPortal: React.FC = () => {
                 href="https://whop.com/diskarte-clipping/"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => whopTrack('submit_application')}
                 className="px-8 py-4 rounded-full font-bold text-base text-diskarte-dark gold-gradient-bg shadow-lg shadow-diskarte-gold/25 hover:shadow-xl hover:shadow-diskarte-gold/45 hover:-translate-y-0.5 transition-all duration-200 flex items-center gap-2 cursor-pointer"
               >
                 <span>Join Our Whop & Start Earning</span>
@@ -86,6 +88,7 @@ export const ClipperPortal: React.FC = () => {
                 href="https://whop.com/diskarte-clipping/"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => whopTrack('view_content')}
                 className="px-6 py-4 rounded-full font-semibold text-sm text-foreground bg-card border border-border hover:bg-accent transition-colors"
               >
                 View Whop Leaderboard & Reviews
@@ -119,6 +122,7 @@ export const ClipperPortal: React.FC = () => {
                     href="https://whop.com/diskarte-clipping/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => whopTrack('view_content')}
                     className="text-xs font-bold px-3 py-1.5 rounded-full bg-diskarte-gold text-diskarte-dark hover:scale-105 transition-transform"
                   >
                     Claim on Whop
@@ -135,6 +139,7 @@ export const ClipperPortal: React.FC = () => {
                     href="https://whop.com/diskarte-clipping/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => whopTrack('view_content')}
                     className="text-xs font-bold px-3 py-1.5 rounded-full bg-diskarte-blue text-white hover:scale-105 transition-transform"
                   >
                     Claim on Whop
@@ -151,6 +156,7 @@ export const ClipperPortal: React.FC = () => {
                     href="https://whop.com/diskarte-clipping/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => whopTrack('view_content')}
                     className="text-xs font-bold px-3 py-1.5 rounded-full bg-diskarte-red text-white hover:scale-105 transition-transform"
                   >
                     Claim on Whop

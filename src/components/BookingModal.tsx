@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 import { X, Mail, Copy, Check, ExternalLink, Sparkles, ShieldCheck } from 'lucide-react'
 import confetti from 'canvas-confetti'
+import { whopTrack } from '@/lib/whop'
 
 interface BookingModalProps {
   isOpen: boolean
@@ -18,6 +19,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose }) =
   const handleCopy = () => {
     navigator.clipboard.writeText(email)
     setCopied(true)
+    whopTrack('contact')
     confetti({
       particleCount: 80,
       spread: 60,
@@ -90,6 +92,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose }) =
           <div className="space-y-3 mb-6">
             <a
               href={mailtoLink}
+              onClick={() => whopTrack('contact')}
               className="w-full py-4 rounded-2xl font-bold text-base text-diskarte-dark gold-gradient-bg shadow-lg shadow-diskarte-gold/25 hover:shadow-xl hover:shadow-diskarte-gold/45 transition-all flex items-center justify-center gap-2 cursor-pointer text-center"
             >
               <span>Open Email Client</span>
