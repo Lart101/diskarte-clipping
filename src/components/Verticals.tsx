@@ -104,7 +104,7 @@ export const Verticals: React.FC<VerticalsProps> = ({ onOpenBooking }) => {
                   {v.results}
                 </span>
                 <button
-                  onClick={() => { whopTrack('lead'); onOpenBooking() }}
+                  onClick={() => { whopTrack('schedule'); onOpenBooking() }}
                   className="text-xs font-semibold text-foreground hover:text-diskarte-gold flex items-center gap-1 transition-colors cursor-pointer"
                 >
                   <span>Launch Campaign</span>
